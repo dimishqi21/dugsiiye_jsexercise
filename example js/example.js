@@ -111,15 +111,90 @@
 //  }while(password !== "123")
 //     console.log("Welcome user")
 
-const students = ["Abdisamad", "Abdirahman", "Hassan", "Yusuf", "Mohamed", "amaal"];
+// const students = ["Abdisamad", "Abdirahman", "Hassan", "Yusuf", "Mohamed", "amaal"];
 
-for (let student of students){
-    console.log(student)
+// for (let student of students){
+//     console.log(student)
+// }
+
+// const languages = "javascript";
+
+// for(let l)
+
+//  if statement
+// let age = 17;
+// if (age >= 18) {
+//     console.log("You are an adult.");
+// //  else stateement 
+// } else {
+//     console.log("You are a minor.");
+// }
+
+// if exercise  16
+// let score = 49;  // tusaale
+
+// if (score >= 50) {
+//   console.log("You passed!");
+// } else {
+//   console.log("You failed");
+// }
+// example
+// let age = 20;
+// if (age < 13) {
+//     console.log("You are a child.");
+// } else if (age < 20) {
+//     console.log("You are a teenager.");
+// } else {
+//     console.log("You are an adult.");
+// }
+// // Output: You are an adult
+
+// exercie17
+// 
+let temperature = 20; // you can change this value
+
+if (temperature < 0) {
+    console.log("Very cold");
+} else if (temperature >= 0 && temperature < 15) {
+    console.log("Cold");
+} else if (temperature >= 15 && temperature < 25) {
+    console.log("Warm");
+} else {
+    console.log("Hot");
 }
+// ternary operator
+// exercise 18
+let grade = 20; 
+const message = grade >= 60? "pass." : "fail."
 
-const languages = "javascript";
+console.log(message);    
 
-for(let l)
+// and operatar 
+// if(age >= 18){
+//     console.log("you are an adult.")
+// }
+// const me =age >= 18 && "you are an adult."
+// console.log(me)
+
+// exercise 19
+const numbers = [1, 2, 3, 4, 5];
+
+numbers.forEach(function(number) {
+  console.log(number);
+});
+
+
+
+// const numbers = [1, 2, 3, 4];
+// const newNumbers = numbers.map(num => num * 2);
+// console.log(newNumbers) // Output: [2, 4, 6, 8]
+// exercise 20
+const fruits = ["apple", "banana", "cherry"];
+
+const lengths = fruits.map(fruit => fruit.length);
+
+console.log(lengths); 
+// Output: [5, 6, 6]
 
 
 
